@@ -93,7 +93,7 @@ src
 Clone the repository
 
 ```bash
-git clone https://github.com/Dee-co/e-commerce-app
+git clone https://github.com/Dee-co/e-commerce-app.git
 ```
 
 Install dependencies
