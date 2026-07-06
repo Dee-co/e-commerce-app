@@ -1,97 +1,150 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# 🛒 E-Commerce(Shop Now) React Native App
 
-# Getting Started
+A modern React Native E-Commerce(Shop Now) application built using React Native CLI. The app demonstrates product browsing, cart management, favorites, filtering, sorting, search, and a clean UI following best development practices.
 
-> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
+---
 
-## Step 1: Start Metro
+## 📱 Features
 
-First, you will need to run **Metro**, the JavaScript build tool for React Native.
+### Home Screen
+- Product listing from DummyJSON API
+- Search products
+- Category filter
+- Price sorting (Low → High / High → Low)
+- Skeleton loading
+- Pull to refresh
+- Premium product cards
 
-To start the Metro dev server, run the following command from the root of your React Native project:
+### Product Details
+- Product image
+- Title
+- Description
+- Brand
+- Rating
+- Price & Discount
+- Warranty Information
+- Return Policy
+- Reviews
+- Add to Cart
+- Add to Favorites
 
-```sh
-# Using npm
-npm start
+### Cart
+- Add / Remove products
+- Increase / Decrease quantity
+- Stock validation
+- Minimum quantity validation
+- Total price calculation
+- Total item count
 
-# OR using Yarn
-yarn start
+### Favorites
+- Add / Remove favorite products
+- Move products to Cart
+
+### Other Features
+- Redux Toolkit State Management
+- Axios API Integration
+- React Navigation
+- Toast Messages
+- Poppins Font
+- Responsive UI
+- Clean Folder Structure
+
+---
+
+## 🛠 Tech Stack
+
+- React Native CLI
+- React Navigation
+- Redux Toolkit
+- Axios
+- Lucide React Native Icons
+- React Native Safe Area Context
+- React Native Toast Message
+
+---
+
+## 📦 API
+
+Products are fetched from:
+
+https://dummyjson.com/products
+
+---
+
+## 📂 Project Structure
+
+```
+src
+│
+├── api
+├── assets
+├── components
+├── navigation
+├── screens
+├── store
+│   └── slices
+├── utils
+└── services
+
+---
+
+## 🚀 Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/Dee-co/e-commerce-app
 ```
 
-## Step 2: Build and run your app
+Install dependencies
 
-With Metro running, open a new terminal window/pane from the root of your React Native project, and use one of the following commands to build and run your Android or iOS app:
+```bash
+npm install
+```
 
 ### Android
 
-```sh
-# Using npm
-npm run android
-
-# OR using Yarn
-yarn android
+```bash
+npx react-native run-android
 ```
 
 ### iOS
 
-For iOS, remember to install CocoaPods dependencies (this only needs to be run on first clone or after updating native deps).
-
-The first time you create a new project, run the Ruby bundler to install CocoaPods itself:
-
-```sh
-bundle install
+```bash
+cd ios
+pod install
+cd ..
+npx react-native run-ios
 ```
 
-Then, and every time you update your native dependencies, run:
+> Add screenshots here
 
-```sh
-bundle exec pod install
-```
+- Home Screen
+- Product Details
+- Cart
+- Favorites
 
-For more information, please visit [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
+---
 
-```sh
-# Using npm
-npm run ios
+## 📹 Demo Video
 
-# OR using Yarn
-yarn ios
-```
+(Add your Google Drive or YouTube link here if available.)
 
-If everything is set up correctly, you should see your new app running in the Android Emulator, iOS Simulator, or your connected device.
+---
 
-This is one way to run your app — you can also build it directly from Android Studio or Xcode.
+## 👨‍💻 Developed By
 
-## Step 3: Modify your app
+**Deepak Malakar**
 
-Now that you have successfully run the app, let's make changes!
+Frontend Developer
 
-Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
+React Native | React.js | Vue.js | JavaScript
 
-When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
+GitHub:
+https://github.com/Dee-co
 
-- **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Dev Menu**, accessed via <kbd>Ctrl</kbd> + <kbd>M</kbd> (Windows/Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (macOS).
-- **iOS**: Press <kbd>R</kbd> in iOS Simulator.
+LinkedIn:
+https://www.linkedin.com/in/deepak-malakar-6b5110219/
 
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [docs](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+Portfolio:
+https://deepakmalakar.vercel.app
